@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: 25 15 * * ?
+    - cron: 38 15 * * *
 
 jobs:
   sign:
