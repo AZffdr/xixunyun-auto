@@ -61,7 +61,7 @@ function wechatSend(type, msg) {
     title: type,
     content: msg
   }
-  axios.get('https://sctapi.ftqq.com/send', { params }).then((res) => {
+  axios.get('http://www.pushplus.plus/send', { params }).then((res) => {
     console.log(res)
     if (res && res.data && res.data.code === 200) {
       console.log(type + ',发送微信推送成功')
