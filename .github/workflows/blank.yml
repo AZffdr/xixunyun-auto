@@ -1,7 +1,6 @@
 name: 习讯云自动签到
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
